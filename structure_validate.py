@@ -33,9 +33,7 @@ for dir in dirnames:
         for _ in lang_dirs:
             lang_path, solution_dirs, _ = dir_iterator.__next__()
             solution_dirs.sort()
-            print(lang_path)
             for idx, dir in enumerate(solution_dirs):
-                print("\t", idx, dir)
                 try:
                     dir_to_int = int(dir)
                     if dir_to_int != idx + 1:

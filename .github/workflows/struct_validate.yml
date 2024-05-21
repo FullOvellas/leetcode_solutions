@@ -7,7 +7,7 @@ on:
 
 jobs:
   hello-world:
-    name: Hello world
+    name: Repo structure
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
